@@ -10,6 +10,7 @@ for doc in cursor:
     json_docs.append(json_doc)
 Or simply:
 
+
 json_docs = [json.dumps(doc, default=json_util.default) for doc in cursor]
 And to get them back from json again:
 

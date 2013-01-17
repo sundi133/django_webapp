@@ -9,3 +9,4 @@ from django.conf.urls.defaults import *
 urlpatterns = patterns('trips.views',
 (r'', 'productids'),
 )
+ 

@@ -31,7 +31,7 @@ def search(request):
         return render_to_response('trips/display.html',variables)
     else:
         message = 'You submitted an empty form.'
-    return HttpResponse(message)
+    return HttpResponse(message) 
 
 
    

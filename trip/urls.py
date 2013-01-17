@@ -21,6 +21,4 @@ urlpatterns = patterns('',
 (r'^trips/', include("trips.urls")),
 (r'^search-form/$', 'trips.views.search_form'),
 (r'^search/$', 'trips.views.search'),
-
-
 )
